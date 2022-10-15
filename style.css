@@ -1,3 +1,26 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+h1 {text-align: center;
+    font-family: 'Montserrat';
+    color: #333;
+    }
+h2 {font-family: 'Montserrat';
+    color: #333;}
+.fotogalerie img {width: 25%;
+        }
+.fotogalerie {
+    background-color: #f0f0f0;
+    padding: 20px 50px 20px 180px;
+}
+.omne img {width: 30%; border-radius: 50%; float: left;}
+main, footer, body {margin: 0 auto; max-width: 50em;
+}
+
+.ahoj {margin: 0px 0px 50px 35%;}
+footer {background-color: #f0f0f0;
+text-align: center;
+padding: 0.5px 0px;}
+
+.kontakt img{width: 30px;}
+
